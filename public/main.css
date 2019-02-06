@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  color: #222;
+  font: 12pt Arial;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  color: inherit;
+}
+
+
+body {
+  margin: 3rem;
+}
+
+a {
+  color: #2297D1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+* > h1 {
+  margin-top: 0;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  background-color: #2297D1;
+  font-size: 0.7em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  color: #fff;
+}
